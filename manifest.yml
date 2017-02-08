@@ -7,7 +7,7 @@ declared-services:
     plan: Lite
 applications:
 - services:
-   - conversation-service
+   - conversation-rose
    - cloudantNoSQLDB-service
   name: text-bot
   command: npm start
